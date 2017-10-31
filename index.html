@@ -8,24 +8,67 @@
       #cafe-da-manha-wrapper * {
         display: inline-block;
       }
+      #almoco-wrapper * {
+        display: inline-block;
+      }
+
+      #lanche1-wrapper * {
+        display: inline-block;
+      }
+
+      #lanche2-wrapper * {
+        display: inline-block;
+      }
+
+      #jantar-wrapper * {
+        display: inline-block;
+      }
+
+      #ceia-wrapper * {
+        display: inline-block;
+      }
+
     </style>
   </head>
   <body>
+    <div align = center>
     <img src="WYN.png"/>
     <h2>Vença seu maior inimigo: VOCÊ!</h2>
     <h3>Cardápio da Semana</h3>
+
     <div id="cafe-da-manha-wrapper">
       <input type="checkbox" id="cafe"/>
-      <h5>CAFÉ DA MANHÃ (9h)</h5>
+      <h5>CAFÉ DA MANHÃ (9h):</h5>
     </div>
 
-    <h5>ALMOÇO (11h30)</h5> <input type="checkbox" id="almoco"/>
-    <h5>LANCHE DA TARDE 1 (14h30)</h5> <input type="checkbox" id="lanche1"/>
-    <h5>LANCHE DA TARDE 2 (17h30)</h5> <input type="checkbox" id="lanche2"/>
-    <h5>JANTAR (20h)</h5> <input type="checkbox" id="jantar"/>
-    <h5>CEIA (22h)</h5> <input type="checkbox" id="ceia"/>
+    <div id="almoco-wrapper">
+      <input type="checkbox" id="almoco"/>
+      <h5>ALMOÇO (11h30):</h5>
+    </div>
+
+    <div id="lanche1-wrapper">
+      <input type="checkbox" id="lanche1"/>
+      <h5>LANCHE DA TARDE 1 (14h30):</h5>
+    </div>
+
+    <div id="lanche2-wrapper">
+      <input type="checkbox" id="lanche2"/>
+      <h5>LANCHE DA TARDE 2 (17h30):</h5>
+    </div>
+
+    <div id="jantar-wrapper">
+      <input type="checkbox" id="jantar"/>
+      <h5>JANTAR (20h):</h5>
+    </div>
+
+    <div id="ceia-wrapper">
+      <input type="checkbox" id="ceia"/>
+      <h5>CEIA (22h):</h5>
+    </div>
+
     <button id="ST">Selecionar todos</button>
     <button id="GS">GERAR SELECIONADOS</button>
+  </div>
     <ul id="refeicoes-geradas">
 
     </ul>
