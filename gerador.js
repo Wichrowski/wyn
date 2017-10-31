@@ -13,7 +13,7 @@ var legumesVerduras = {
 
 var carboidratos = {
   almocoJanta: [" Arroz Integral/Parabolizado (4 colh. de sopa)", " Arroz Branco (3 colh. de sopa)", " Batata Inglesa (1 unid. média)", " Macarrão (1/3 do prato)", " Mandioca (1 pedaço médio)", " Farinha de mandioca (2 colh. de sopa)", " Polenta (4 colh. de sopa)", " Milho (1 espiga média ou 4 colh. de sopa)"],
-  lancheJanta: [" Pão Francês (sem miolo - 1 unid.)", " Pão Francês Integral (sem miolo - 1 unid.)", " Torradinhas Bauducco Integral ou Light (3 unid.)", " Pão Sírio (1 unid.)", " Pão de Forma Integral (2 fatias)", " Nesfit (1 pacotinho)", " BelVita (1 pacotinho)", " Cookies Integrais (Jasmine/Vitao – 5 unid.", " Bolacha Água e Sal (4 unid.)", " Bolacha Salgada Integral (5 unid.)"],
+  lancheJanta: [" Pão Francês (sem miolo - 1 unid.)", " Pão Francês Integral (sem miolo - 1 unid.)", " Torradinhas Bauducco Integral ou Light (3 unid.)", " Pão Sírio (1 unid.)", " Pão de Forma Integral (2 fatias)", " Nesfit (1 pacotinho)", " BelVita (1 pacotinho)", " Cookies Integrais (Jasmine/Vitao – 5 unid.)", " Bolacha Água e Sal (4 unid.)", " Bolacha Salgada Integral (5 unid.)"],
   janta: [" Pão de Forma Branco Light (2 fatias)", " Rap 10 Integral ou Light (2 unid.)", " Pizza de Frigideira Integral (2 unid.)"]
 }
 
