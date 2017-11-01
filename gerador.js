@@ -35,27 +35,34 @@ var frutas = {
   fruta: [" Banana (1 unid. pequena)", " Laranja (1 unid. média)", " Maçã (1 unid. pequena)", " Pêra (1 unid.)", " Morango (1/2 copo)", " Melão (1 fatia média)", " Uva (1 cacho pequeno)", " Ameixa (2 unid. médias)", " Bergamota (1 unid. média)", " Mamão Papaya (1/2 unid.)", " Melancia (1 fatia fina)", " Kiwi (1 unid. média)"]
 }
 
-var c1 = bebidas.iogurte[Math.floor(Math.random() * bebidas.iogurte.length)]
-var c2 = bebidas.suco[Math.floor(Math.random() * bebidas.suco.length)]
+var c1a = bebidas.iogurte[Math.floor(Math.random() * bebidas.iogurte.length)]
+var c1b = bebidas.iogurte[Math.floor(Math.random() * bebidas.iogurte.length)]
+var c1c = bebidas.iogurte[Math.floor(Math.random() * bebidas.iogurte.length)]
+var c2a = bebidas.suco[Math.floor(Math.random() * bebidas.suco.length)]
+var c2b = bebidas.suco[Math.floor(Math.random() * bebidas.suco.length)]
 var c3 = saladas.salada[Math.floor(Math.random() * saladas.salada.length)]
 var c4 = legumesVerduras.legumeVerdura[Math.floor(Math.random() * legumesVerduras.legumeVerdura.length)]
 var c5 = carboidratos.almocoJanta[Math.floor(Math.random() * carboidratos.almocoJanta.length)]
-var c6 = carboidratos.lancheJanta[Math.floor(Math.random() * carboidratos.lancheJanta.length)]
+var c6a = carboidratos.lancheJanta[Math.floor(Math.random() * carboidratos.lancheJanta.length)]
+var c6b = carboidratos.lancheJanta[Math.floor(Math.random() * carboidratos.lancheJanta.length)]
 var c7 = carboidratos.janta[Math.floor(Math.random() * carboidratos.janta.length)]
 var c8 = proteinasVegetais.proteinaVegetal[Math.floor(Math.random() * proteinasVegetais.proteinaVegetal.length)]
 var c9 = proteinasAnimais.almoco[Math.floor(Math.random() * proteinasAnimais.almoco.length)]
 var c10 = proteinasAnimais.janta[Math.floor(Math.random() * proteinasAnimais.janta.length)]
 var c11 = friosAdicionais.lancheTarde[Math.floor(Math.random() * friosAdicionais.lancheTarde.length)]
 var c12 = friosAdicionais.janta[Math.floor(Math.random() * friosAdicionais.janta.length)]
-var c13 = frutas.fruta[Math.floor(Math.random() * frutas.fruta.length)]
+var c13a = frutas.fruta[Math.floor(Math.random() * frutas.fruta.length)]
+var c13b = frutas.fruta[Math.floor(Math.random() * frutas.fruta.length)]
+var c13c = frutas.fruta[Math.floor(Math.random() * frutas.fruta.length)]
+var c13d = frutas.fruta[Math.floor(Math.random() * frutas.fruta.length)]
 
 var refeicoes = {
-  cafe: [c1, c13],
-  almoco: [c3, c4, c5, c8, c9, c13],
-  lanche1: [c1,c2, c6, c11],
-  lanche2: [c13],
-  jantar: [c1, c2, c6, c7, c12, c10],
-  ceia: [c13]
+  cafe: [c1a, c13a],
+  almoco: [c3, c4, c5, c8, c9, c13b],
+  lanche1: [c1b, c2a, c6a, c11],
+  lanche2: [c13c],
+  jantar: [c1c, c2b, c6b, c7, c12, c10],
+  ceia: [c13d]
 }
 
 var ST = document.getElementById('ST')
